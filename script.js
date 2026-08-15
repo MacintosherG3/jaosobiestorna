@@ -6,7 +6,7 @@ const machines = [
     i18n:{bs:{name:"iMac G3 — Bondi Blue",desc:"Jedan od najprepoznatljivijih računara s kraja 90-ih i početka 2000-ih. Prozirno kućište i Bondi Blue boja postali su simbol perioda u kojem je Apple snažno stavio naglasak na dizajn. Ovaj primjerak spaja jednostavnost PowerPC platforme s klasičnim Mac OS-om.",tag:null},ar:{name:"iMac G3 — Bondi Blue",desc:"واحد من أكثر الحواسيب تميزًا في نهاية التسعينيات وبداية الألفية. أصبح الهيكل الشفاف ولون Bondi Blue رمزًا لمرحلة ركزت فيها Apple بقوة على التصميم. يجمع هذا الجهاز بين بساطة منصة PowerPC ونظام Mac OS الكلاسيكي.",tag:null}},
     desc:"Jeden z najbardziej charakterystycznych komputerów przełomu lat 90. i 2000. Przezroczysta obudowa i kolor Bondi Blue są niemal symbolem epoki, w której Apple zaczęło mocno stawiać na wzornictwo. Ten egzemplarz jest ciekawym połączeniem prostoty PowerPC i klasycznego Mac OS."
   },
- {
+  {
   cat:"apple", name:"iMac G4 — Lampka", tag:"iMac G4", year:"2002",
   cpu:"PowerPC G4 800 MHz", gpu:"NVIDIA GeForce 2 MX", ram:"256 MB", os:"Mac OS 9.2.2 / Mac OS 10.3.9",
   i18n:{
@@ -14,7 +14,7 @@ const machines = [
     ar:{name:"iMac G4 — أيقونة التصميم",desc:"أيقونة التصميم وتحفة تكنولوجية. تم إصداره في عام 2002، ليُغير هذا الكمبيوتر الثوري مفهوم التصميم الصناعي في عالم التكنولوجيا إلى الأبد. بفضل قاعدته المرنة والمميزة المستوحاة من مصباح المكتب ومعالج PowerPC G4 القوي، أصبح جهاز iMac G4 واحداً من أكثر أجهزة Apple شهرة وطلباً في التاريخ. إنه مزيج مثالي بين الحنين إلى الماضي، والابتكار، ونظام التشغيل الكلاسيكي Mac OS، وهو جهاز لا يزال يثير إعجاب هواة جمع الأجهزة وعشاق التصميم حول العالم حتى يومنا هذا.",tag:null}
   },
   desc:"Ikona designu i technologiczne dzieło sztuki. Zaprezentowany w 2002 roku, ten przełomowy komputer na zawsze zmienił postrzeganie wzornictwa przemysłowego w branży IT. Dzięki unikalnej, regulowanej konstrukcji inspirowanej lampką biurkową oraz procesorowi PowerPC G4, iMac G4 stał się jednym z najbardziej pożądanych i rozpoznawalnych urządzeń w historii Apple. To idealne połączenie nostalgii, innowacji i klasycznego systemu Mac OS, które do dziś zachwyca kolekcjonerów i pasjonatów designu na całym świecie."
-}
+  },
   {
     cat:"apple", name:"PowerMac G4 Sawtooth — Graphite", tag:"PowerMac G4", year:"1999/2000",
     cpu:"PowerPC G4 400 MHz", gpu:"ATI Rage 128", ram:"384 MB", os:"Mac OS 9.2.2",
