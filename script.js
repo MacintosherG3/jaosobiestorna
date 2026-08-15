@@ -1,7 +1,7 @@
 
 const machines = [
   {
-    cat:"apple", name:"iMac G3 — Bondi Blue", tag:"iMac G3", year:"1998/1999",
+    cat:"apple", name:"iMac G3 — Bondi Blue", tag:"iMac G3", year:"1998",
     cpu:"PowerPC G3 233 MHz", gpu:"ATI Rage Pro", ram:"256 MB", os:"Mac OS 9.2.2",
     i18n:{bs:{name:"iMac G3 — Bondi Blue",desc:"Jedan od najprepoznatljivijih računara s kraja 90-ih i početka 2000-ih. Prozirno kućište i Bondi Blue boja postali su simbol perioda u kojem je Apple snažno stavio naglasak na dizajn. Ovaj primjerak spaja jednostavnost PowerPC platforme s klasičnim Mac OS-om.",tag:null},ar:{name:"iMac G3 — Bondi Blue",desc:"واحد من أكثر الحواسيب تميزًا في نهاية التسعينيات وبداية الألفية. أصبح الهيكل الشفاف ولون Bondi Blue رمزًا لمرحلة ركزت فيها Apple بقوة على التصميم. يجمع هذا الجهاز بين بساطة منصة PowerPC ونظام Mac OS الكلاسيكي.",tag:null}},
     desc:"Jeden z najbardziej charakterystycznych komputerów przełomu lat 90. i 2000. Przezroczysta obudowa i kolor Bondi Blue są niemal symbolem epoki, w której Apple zaczęło mocno stawiać na wzornictwo. Ten egzemplarz jest ciekawym połączeniem prostoty PowerPC i klasycznego Mac OS."
@@ -25,13 +25,13 @@ const machines = [
   },
  
   {
-    cat:"apple", name:"PowerMac G4 Sawtooth — Graphite", tag:"PowerMac G4", year:"1999/2000",
+    cat:"apple", name:"PowerMac G4 Sawtooth — Graphite", tag:"PowerMac G4", year:"1999",
     cpu:"PowerPC G4 400 MHz", gpu:"ATI Rage 128", ram:"384 MB", os:"Mac OS 9.2.2",
     i18n:{bs:{name:"PowerMac G4 Sawtooth — Graphite",desc:"Sawtooth predstavlja profesionalniju stranu PowerPC G4 ere. G4 procesor i ATI Rage 128 tipična su kombinacija s prijelaza u novo milenijum, dok grafitno kućište jasno odvaja ovaj model od potrošačkog iMaca.",tag:null},ar:{name:"PowerMac G4 Sawtooth — Graphite",desc:"يمثل Sawtooth الجانب الاحترافي من عصر PowerPC G4. يجمع معالج G4 وبطاقة ATI Rage 128 بين مواصفات نموذجية لمرحلة الانتقال إلى الألفية الجديدة، بينما يميّزه الهيكل الجرافيتي عن iMac الموجه للمستخدم العادي.",tag:null}},
     desc:"Sawtooth reprezentuje profesjonalniejszą stronę ery PowerPC G4. Procesor G4 i karta ATI Rage 128 tworzą zestaw typowy dla przełomu tysiącleci, a grafitowa obudowa odróżnia go od bardziej konsumenckiego iMaca."
   },
   {
-    cat:"apple", name:"PowerMac G4 Quicksilver", tag:"PowerMac G4", year:"2001/2002",
+    cat:"apple", name:"PowerMac G4 Quicksilver", tag:"PowerMac G4", year:"2001",
     cpu:"2× PowerPC G4 800 MHz", gpu:"GeForce 2 MX", ram:"1 GB", os:"Mac OS 9.2.2 / 10.4.11",
     i18n:{bs:{name:"PowerMac G4 Quicksilver",desc:"Quicksilver je jedan od najmoćnijih računara u kolekciji iz klasične Mac OS ere. Dva G4 procesora, 1 GB RAM-a i mogućnost rada s Mac OS 9.2.2 i Mac OS X 10.4.11 čine ga odličnom mašinom za poređenje dvije generacije Apple softvera.",tag:null},ar:{name:"PowerMac G4 Quicksilver",desc:"يُعد Quicksilver واحدًا من أقوى أجهزة المجموعة من عصر Mac OS الكلاسيكي. معالجا G4 وذاكرة 1 GB وإمكانية تشغيل Mac OS 9.2.2 وMac OS X 10.4.11 تجعله جهازًا ممتازًا لمقارنة جيلين من برمجيات Apple.",tag:null}},
     desc:"Quicksilver jest jedną z najmocniejszych maszyn kolekcji z klasycznej epoki Mac OS. Dwa procesory G4, 1 GB RAM i możliwość pracy zarówno z Mac OS 9.2.2, jak i Mac OS X 10.4.11 czynią go świetną maszyną do porównywania dwóch generacji oprogramowania Apple."
@@ -67,13 +67,13 @@ const machines = [
     desc:"Kompaktowy MacBook Pro z końca ery Intela. Sandy Bridge i 8 GB RAM sprawiają, że mimo wieku jest to bardzo ciekawa maszyna do starszego oprogramowania, kompatybilności i eksperymentów z dawnymi wersjami macOS."
   },
   {
-    cat:"pc", name:"Pentium 75 — S3 Trio/V2", tag:"PC", year:"retro",
+    cat:"pc", name:"Pentium 75 — S3 Trio/V2", tag:"PC", year:"1995",
     cpu:"Intel Pentium 75 MHz", gpu:"S3 Trio/V2", ram:"32 MB", os:"Windows 95 / 98",
     i18n:{bs:{name:"Pentium 75 — S3 Trio/V2",desc:"Klasični PC iz prve polovine 90-ih. Pentium 75 MHz i 32 MB RAM-a odlično odgovaraju svijetu DOS-a, Windowsa 95 i ranog Windowsa 98. Ovakve konfiguracije lijepo pokazuju koliki je skok performansi došao kasnije.",tag:null},ar:{name:"Pentium 75 — S3 Trio/V2",desc:"حاسوب شخصي كلاسيكي من النصف الأول من التسعينيات. يناسب Pentium 75 MHz وذاكرة 32 MB عالم DOS وWindows 95 وبدايات Windows 98. يوضح هذا النوع من الأجهزة مدى ضخامة قفزة الأداء التي جاءت لاحقًا.",tag:null}},
     desc:"Klasyczny PC z pierwszej połowy lat 90. Pentium 75 MHz i 32 MB RAM świetnie pasują do świata DOS-u, Windows 95 oraz wczesnego Windows 98. To właśnie takie konfiguracje pokazują, jak ogromny skok wydajności dokonał się później."
   },
   {
-    cat:"pc", name:"Pentium 4 HT 661", tag:"PC", year:"retro",
+    cat:"pc", name:"Pentium 4 HT 661", tag:"PC", year:"2006",
     cpu:"Intel Pentium 4 HT 661 3.6 GHz", gpu:"NVIDIA GeForce 6600 GT", ram:"4 GB", os:"Windows XP",
     i18n:{bs:{name:"Pentium 4 HT 661",desc:"Mašina iz vremena kada su Pentium 4 procesori dostizali visoke taktove, a Hyper-Threading je omogućavao dva logička threada. GeForce 6600 GT odlično odgovara igrama iz Windows XP ere i pravi zanimljiv kontrast Pentiumu 75.",tag:null},ar:{name:"Pentium 4 HT 661",desc:"جهاز من عصر كانت فيه معالجات Pentium 4 تصل إلى ترددات عالية، بينما أتاح Hyper-Threading للنظام استخدام مسارين منطقيين. تناسب GeForce 6600 GT ألعاب عصر Windows XP وتقدم تباينًا واضحًا مع Pentium 75.",tag:null}},
     desc:"Maszyna z czasów, gdy Pentium 4 osiągały wysokie zegary, a Hyper-Threading pozwalał systemowi korzystać z dwóch logicznych wątków. GeForce 6600 GT dobrze pasuje do gier ery Windows XP i stanowi ciekawy kontrast dla dużo starszego Pentium 75."
@@ -91,13 +91,13 @@ const machines = [
     desc:"ThinkPad R50e to przedstawiciel klasycznych biznesowych laptopów IBM. Platforma Intel 855GM i procesory z rodziny Pentium M były projektowane z myślą o rozsądnym poborze energii. Typowa dla ThinkPadów konstrukcja stawia na praktyczność, serwisowalność i klawiaturę, a nie efektowny wygląd."
   },
   {
-    cat:"main", name:"MacBook Pro M5 — główny laptop", tag:"MAIN GEAR", year:"2026",
+    cat:"main", name:"MacBook Pro M5 — główny laptop", tag:"MAIN GEAR", year:"2025",
     cpu:"Apple M5", gpu:"Apple GPU", ram:"16 GB", os:"macOS",
     i18n:{bs:{name:"MacBook Pro M5 — glavni laptop",desc:"Nenametljiv, ali moćan računar za programiranje, igranje i svakodnevnu upotrebu — bilo gdje i u bilo koje vrijeme. Savremeni kontrast kolekciji PowerPC i Intel mašina.",tag:null},ar:{name:"MacBook Pro M5 — الحاسوب المحمول الرئيسي",desc:"جهاز غير لافت في شكله لكنه قوي للبرمجة والألعاب والاستخدام اليومي في أي مكان ووقت. إنه المقابل الحديث لمجموعة أجهزة PowerPC وIntel.",tag:null}},
     desc:"Niepozorna, ale potężna maszyna do programowania, grania oraz codziennego użytku — w każdym miejscu i o każdej porze. To współczesny kontrapunkt dla kolekcji PowerPC i Intel."
   },
   {
-    cat:"main", name:"Główny PC — Linux Gaming Rig", tag:"MAIN GEAR", year:"2026",
+    cat:"main", name:"Główny PC — Linux Gaming Rig", tag:"MAIN GEAR", year:"2020",
     cpu:"Intel Core i7-9700K", gpu:"NVIDIA RTX 3060 Ti", ram:"16 GB", os:"Arch Linux",
     i18n:{bs:{name:"Glavni PC — Linux Gaming Rig",desc:"Gaming mašina i pravi Linux entuzijast za sve što ne mogu raditi na Macu. Dva Samsung 990 diska od po 1 TB pružaju brzo okruženje za projekte, igre, virtuelne mašine i eksperimente s Linuxom.",tag:null},ar:{name:"الحاسوب الرئيسي — Linux Gaming Rig",desc:"جهاز ألعاب وبيئة Linux قوية لكل ما لا أستطيع القيام به على Mac. يوفر قرصا Samsung 990 بسعة 1 TB لكل منهما بيئة سريعة للمشاريع والألعاب والآلات الافتراضية وتجارب Linux.",tag:null}},
     desc:"Maszynka gamingowa oraz linuxowy wariat pod wszystko, czego nie mogę zrobić na Macu. Dwa dyski Samsung 990 1 TB dają szybkie środowisko do projektów, gier, maszyn wirtualnych i eksperymentów z Linuksem."
