@@ -7,6 +7,12 @@ const machines = [
     desc:"Jeden z najbardziej charakterystycznych komputerów przełomu lat 90. i 2000. Przezroczysta obudowa i kolor Bondi Blue są niemal symbolem epoki, w której Apple zaczęło mocno stawiać na wzornictwo. Ten egzemplarz jest ciekawym połączeniem prostoty PowerPC i klasycznego Mac OS."
   },
   {
+    cat:"apple", name:"iMac G4 — Lampka", tag:"iMac G4", year:"2002",
+    cpu:"PowerPC G4 800 MHz", gpu:"NVIDIA GeForce 2 MX", ram:"256 MB", os:"Mac OS 9.2.2 / Mac OS 10.3.9",
+    i18n:{bs:{name:"iMac G4 — 800 MHz",desc:"Prepoznatljivi iMac G4 s PowerPC G4 procesorom od 800 MHz i GeForce 2 MX grafikom. Kombinacija posebnog dizajna kućišta i klasičnog Mac OS-a čini ga jednim od najzanimljivijih prijelaznih modela u Appleovoj istoriji.",tag:null},ar:{name:"iMac G4 — 800 MHz",desc:"جهاز iMac G4 مميز بمعالج PowerPC G4 بسرعة 800 ميغاهرتز ورسوميات NVIDIA GeForce 2 MX. يجمع بين التصميم الفريد والجيل الكلاسيكي من Mac OS، لذلك يُعد من أكثر أجهزة Apple إثارة للاهتمام في مرحلة الانتقال تلك.",tag:null}},
+    desc:"Charakterystyczny iMac G4 z procesorem PowerPC G4 800 MHz i grafiką NVIDIA GeForce 2 MX. Połączenie nietypowej konstrukcji, charakterystycznej podstawy i klasycznego Mac OS sprawia, że jest to jeden z ciekawszych modeli przejściowych w historii Apple."
+  },
+  {
     cat:"apple", name:"PowerMac G4 Sawtooth — Graphite", tag:"PowerMac G4", year:"1999/2000",
     cpu:"PowerPC G4 400 MHz", gpu:"ATI Rage 128", ram:"384 MB", os:"Mac OS 9.2.2",
     i18n:{bs:{name:"PowerMac G4 Sawtooth — Graphite",desc:"Sawtooth predstavlja profesionalniju stranu PowerPC G4 ere. G4 procesor i ATI Rage 128 tipična su kombinacija s prijelaza u novo milenijum, dok grafitno kućište jasno odvaja ovaj model od potrošačkog iMaca.",tag:null},ar:{name:"PowerMac G4 Sawtooth — Graphite",desc:"يمثل Sawtooth الجانب الاحترافي من عصر PowerPC G4. يجمع معالج G4 وبطاقة ATI Rage 128 بين مواصفات نموذجية لمرحلة الانتقال إلى الألفية الجديدة، بينما يميّزه الهيكل الجرافيتي عن iMac الموجه للمستخدم العادي.",tag:null}},
