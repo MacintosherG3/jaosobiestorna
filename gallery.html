@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Burek / Burektech — programowanie, retro computing, Linux i kolekcja komputerów.">
+<title>Burek / Burektech — galeria</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="index.html"><strong>BUREK</strong><span>/BUREKTECH</span></a>
+  <div class="status"><span class="led"></span><span data-i18n="online">ONLINE</span> // 2000s MODE</div>
+</header>
+<nav class="nav" aria-label="Główna nawigacja">
+  <a href="index.html" data-i18n="nav_home">START</a>
+  <a href="about.html" data-i18n="nav_about">O MNIE</a>
+  <a href="tech.html" data-i18n="nav_skills">TECH</a>
+  <a href="collection.html" data-i18n="nav_collection">KOLEKCJA</a>
+  <a href="phones.html" data-i18n="nav_phones">TELEFONY</a>
+  <a href="gallery.html" data-i18n="nav_gallery">GALERIA</a>
+  <a href="sources.html" data-i18n="nav_sources">ŹRÓDŁA</a>
+</nav>
+
+<main class="page-wrap">
+
+<section class="page-heading panel">
+  <div class="eyebrow">PAGE // 05</div>
+  <h1 data-i18n="gallery_title">GALERIA // MOJE MASZYNY</h1>
+  <p data-i18n="gallery_intro">Zdjęcia są wyświetlane bez przycinania. Kliknij dowolne zdjęcie, aby zobaczyć je w pełnym rozmiarze.</p>
+</section>
+<section class="panel">
+  <div class="gallery-grid">
+    <figure><a class="gallery-link" href="assets/macbook-duo.jpg"><img src="assets/macbook-duo.jpg" alt="Dwa białe MacBooki na biurku"><span>FULL SIZE</span></a><figcaption>MacBook // collection desk</figcaption></figure>
+    <figure><a class="gallery-link" href="assets/macbook-pro.jpg"><img src="assets/macbook-pro.jpg" alt="Srebrny MacBook Pro"><span>FULL SIZE</span></a><figcaption>MacBook Pro // classic aluminum</figcaption></figure>
+    <figure><a class="gallery-link" href="assets/imac-g3-front.jpg"><img src="assets/imac-g3-front.jpg" alt="Kolorowy iMac G3 od przodu"><span>FULL SIZE</span></a><figcaption>iMac G3 // front</figcaption></figure>
+    <figure><a class="gallery-link" href="assets/imac-g3-side.jpg"><img src="assets/imac-g3-side.jpg" alt="Kolorowy iMac G3 z boku"><span>FULL SIZE</span></a><figcaption>iMac G3 // Bondi Blue</figcaption></figure>
+    <figure><a class="gallery-link" href="assets/macbook.jpg"><img src="assets/macbook.jpg" alt="Biały MacBook z systemem Mac OS X"><span>FULL SIZE</span></a><figcaption>MacBook // OS X era</figcaption></figure>
+    <figure><a class="gallery-link" href="assets/IMG_0228.jpg"><img src="assets/IMG_0228.jpg" alt="MacBook Pro z dużym zewnętrznym ekranem i tapetą wodospadu"><span>FULL SIZE</span></a><figcaption>MacBook Pro // główne stanowisko pracy</figcaption></figure>
+    <figure><a class="gallery-link" href="assets/IMG_0240.jpg"><img src="assets/IMG_0240.jpg" alt="Kolekcja komputerów Apple — MacBooki, iMac i MacBook Pro"><span>FULL SIZE</span></a><figcaption>Kolekcja // Apple w kilku generacjach</figcaption></figure>
+  </div>
+</section>
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox-close" aria-label="Close">X</button>
+  <img id="lightboxImage" src="" alt="">
+  <div class="lightbox-caption" id="lightboxCaption"></div>
+</div>
+
+</main>
+
+<footer>
+  <div>BUREK / BUREKTECH © <span id="year"></span> // <span data-i18n="footer">zbudowane z HTML + CSS + JS</span></div>
+  <div class="visitor">VISITOR #<span id="visitorCount">000042</span></div>
+</footer>
+<div class="lang-switcher" aria-label="Language selector">
+  <button data-lang="pl" class="lang active">PL</button>
+  <button data-lang="bs" class="lang">BS</button>
+  <button data-lang="ar" class="lang">AR</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
