@@ -8,7 +8,7 @@ Strona jest podzielona na osobne podstrony:
 - `collection.html` — pełna kolekcja komputerów
 - `phones.html` — kolekcja telefonów
 - `gallery.html` — galeria
-- `sources.html` — źródła
+
 
 Galeria:
 - zdjęcia nie są już przycinane przez `object-fit: cover`;
