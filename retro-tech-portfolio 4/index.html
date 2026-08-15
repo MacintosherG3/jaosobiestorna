@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Burek / Burektech — programowanie, retro computing, Linux i kolekcja komputerów.">
+<title>Burek / Burektech — start</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="index.html"><strong>BUREK</strong><span>/BUREKTECH</span></a>
+  <div class="status"><span class="led"></span><span data-i18n="online">ONLINE</span> // 2000s MODE</div>
+</header>
+<nav class="nav" aria-label="Główna nawigacja">
+  <a href="index.html" data-i18n="nav_home">START</a>
+  <a href="about.html" data-i18n="nav_about">O MNIE</a>
+  <a href="tech.html" data-i18n="nav_skills">TECH</a>
+  <a href="collection.html" data-i18n="nav_collection">KOLEKCJA</a>
+  <a href="phones.html" data-i18n="nav_phones">TELEFONY</a>
+  <a href="gallery.html" data-i18n="nav_gallery">GALERIA</a>
+  <a href="sources.html" data-i18n="nav_sources">ŹRÓDŁA</a>
+</nav>
+
+<main class="page-wrap">
+
+<section class="hero panel">
+  <div class="hero-copy">
+    <div class="eyebrow">BUREK / BUREKTECH // MY HOMEPAGE</div>
+    <h1><span data-i18n="hero_title_1">PROGRAMOWANIE.</span><br><em data-i18n="hero_title_2">RETRO KOMPUTERY.</em><br><span data-i18n="hero_title_3">LINUX.</span></h1>
+    <p data-i18n="hero_text">To mój mały zakątek internetu poświęcony tworzeniu oprogramowania, sprzętowi z duszą i eksperymentowaniu z technologią — od klasycznego Mac OS po Arch Linux.</p>
+    <div class="hero-actions">
+      <a class="btn primary" href="collection.html" data-i18n="see_collection">[ ZOBACZ KOLEKCJĘ ]</a>
+      <a class="btn" href="tech.html" data-i18n="see_stack">[ MÓJ STACK ]</a>
+    </div>
+  </div>
+  <div class="terminal">
+    <div class="terminal-head"><span>terminal</span><span>● ● ●</span></div>
+    <pre><span class="prompt">guest@burektech:~$</span> neofetch
+<span class="cyan">OS:</span> Arch Linux / macOS
+<span class="cyan">CODE:</span> C++ / Swift / SQL
+<span class="cyan">UI:</span> SwiftUI / Metal
+<span class="cyan">HOBBY:</span> vintage computing
+<span class="cyan">STATUS:</span> <span class="blink">building...</span>
+
+<span class="prompt">guest@burektech:~$</span> ./hello_world</pre>
+  </div>
+</section>
+
+<section class="panel welcome-grid">
+  <div>
+    <div class="section-title"><span>01</span><h2 data-i18n="home_intro_title">BUREK / BUREKTECH</h2></div>
+    <p class="lead" data-i18n="home_intro_lead">Kod, stare komputery i ciekawość tego, jak wszystko działa.</p>
+    <p data-i18n="home_intro">Ta strona jest moim cyfrowym archiwum: pokazuję tutaj projekty i technologie, których używam, oraz kolekcję maszyn, które przeszły przez różne epoki komputerów.</p>
+  </div>
+  <aside class="quick-links">
+    <a href="about.html"><b data-i18n="quick_about">O mnie</b><span data-i18n="quick_about_desc">kim jestem i czym się zajmuję</span></a>
+    <a href="tech.html"><b data-i18n="quick_tech">Technologie</b><span data-i18n="quick_tech_desc">C++, Swift, MySQL, Linux, Metal, SwiftUI</span></a>
+    <a href="collection.html"><b data-i18n="quick_collection">Kolekcja</b><span data-i18n="quick_collection_desc">Apple, PC, laptopy i główny sprzęt</span></a>
+  </aside>
+</section>
+
+</main>
+
+<footer>
+  <div>BUREK / BUREKTECH © <span id="year"></span> // <span data-i18n="footer">zbudowane z HTML + CSS + JS</span></div>
+  <div class="visitor">VISITOR #<span id="visitorCount">000042</span></div>
+</footer>
+<div class="lang-switcher" aria-label="Language selector">
+  <button data-lang="pl" class="lang active">PL</button>
+  <button data-lang="bs" class="lang">BS</button>
+  <button data-lang="ar" class="lang">AR</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
