@@ -41,3 +41,50 @@ footer{max-width:1180px;margin:auto;padding:20px 22px 65px;color:var(--muted);di
 [dir="rtl"]{font-family:Tahoma,Arial,sans-serif}
 @media(max-width:850px){.hero,.two-col{grid-template-columns:1fr}.skill-grid{grid-template-columns:repeat(2,1fr)}.gallery-grid{grid-template-columns:1fr 1fr}.detail-list{grid-template-columns:1fr}}
 @media(max-width:560px){.topbar{flex-direction:column;align-items:flex-start}.brand{font-size:27px}.brand span{font-size:16px}.hero{padding:20px}.skill-grid,.collection-grid,.gallery-grid,.feature-grid{grid-template-columns:1fr}.gallery-grid figure:first-child{grid-column:auto}.topbar{align-items:flex-start}footer{flex-direction:column;gap:10px}.panel{padding:18px}h1{font-size:43px}.big-specs{grid-template-columns:1fr}}
+/* PHONE COLLECTION HEADER */
+.phone-header{
+  padding:0;
+  overflow:hidden;
+  background:var(--paper);
+}
+.phone-header:after{display:none}
+.phone-header-image{
+  width:100%;
+  background:#111;
+  border-bottom:3px solid var(--navy);
+}
+.phone-header-image img{
+  display:block;
+  width:100%;
+  height:auto;
+  max-height:380px;
+  object-fit:contain;
+  margin:0 auto;
+}
+.phone-header-caption{
+  display:grid;
+  grid-template-columns:auto 1fr;
+  align-items:center;
+  gap:10px 16px;
+  padding:14px 18px 16px;
+  border-top:1px solid var(--line);
+}
+.phone-header-caption .eyebrow{grid-row:span 2}
+.phone-header-caption strong{
+  color:var(--navy);
+  font-family:"Trebuchet MS",Arial,sans-serif;
+  font-size:20px;
+  letter-spacing:-.4px;
+}
+.phone-header-caption span:last-child{
+  color:var(--muted);
+  font-size:13px;
+}
+@media (max-width:700px){
+  .phone-header-caption{
+    grid-template-columns:1fr;
+    gap:8px;
+  }
+  .phone-header-caption .eyebrow{grid-row:auto}
+  .phone-header-image img{max-height:none}
+}
