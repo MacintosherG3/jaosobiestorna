@@ -6,11 +6,6 @@ const machines = [
     desc:"Jeden z najbardziej charakterystycznych komputerów przełomu lat 90. i 2000. Przezroczysta obudowa i kolor Bondi Blue są niemal symbolem epoki, w której Apple zaczęło mocno stawiać na wzornictwo. Ten egzemplarz jest ciekawym połączeniem prostoty PowerPC i klasycznego Mac OS."
   },
   {
-    cat:"apple", name:"iMac G3 — Red", tag:"iMac G3", year:"kolekcja",
-    cpu:"PowerPC G3", gpu:"—", ram:"—", os:"Mac OS",
-    desc:"Czerwony iMac G3 to druga strona tej samej stylistycznej rewolucji Apple. W kolekcji pełni rolę maszyny, która świetnie pokazuje, jak bardzo kolor, przezroczystość i forma zaczęły być częścią produktu komputerowego."
-  },
-  {
     cat:"apple", name:"PowerMac G4 Sawtooth — Graphite", tag:"PowerMac G4", year:"1999/2000",
     cpu:"PowerPC G4 400 MHz", gpu:"ATI Rage 128", ram:"384 MB", os:"Mac OS 9.2.2",
     desc:"Sawtooth reprezentuje profesjonalniejszą stronę ery PowerPC G4. Procesor G4 i karta ATI Rage 128 tworzą zestaw typowy dla przełomu tysiącleci, a grafitowa obudowa odróżnia go od bardziej konsumenckiego iMaca."
