@@ -79,20 +79,20 @@ const machines = [
     desc:"Maszyna z czasów, gdy Pentium 4 osiągały wysokie zegary, a Hyper-Threading pozwalał systemowi korzystać z dwóch logicznych wątków. GeForce 6600 GT dobrze pasuje do gier ery Windows XP i stanowi ciekawy kontrast dla dużo starszego Pentium 75."
   },
   {
-    cat:"laptop", name:"Toshiba Portégé 3110CT", tag:"PC Laptop", year:"około 2000",
-    cpu:"Mobile Pentium II 300 MHz", gpu:"SVGA/VGA, 2.5 MB VRAM", ram:"64 MB (max 128 MB)", os:"Windows 98 SE / 95 / NT4",
+    cat:"laptop", name:"Toshiba Portégé 3110CT", tag:"PC Laptop", year:"2000",
+    cpu:"Mobile Pentium II 300 MHz", gpu:"SVGA/VGA, 2.5 MB VRAM", ram:"64 MB", os:"Windows 98 SE",
     i18n:{bs:{name:"Toshiba Portégé 3110CT",desc:"Vrlo mali notebook s kraja 90-ih i početka 2000-ih. Portégé 3110CT pripadao je laganim poslovnim računarima gdje je mobilnost bila važnija od sirove snage. U kolekciji pokazuje kako je izgledao prenosivi računar prije ere modernih ultrabookova.",tag:null},ar:{name:"Toshiba Portégé 3110CT",desc:"حاسوب محمول صغير جدًا من نهاية التسعينيات وبداية الألفية. كان Portégé 3110CT من الحواسيب التجارية الخفيفة التي كانت فيها قابلية التنقل أهم من القوة الخام. يوضح في المجموعة كيف بدت الحواسيب المحمولة قبل عصر Ultrabook الحديث.",tag:null}},
     desc:"Bardzo mały notebook z końca lat 90. i początku 2000. Portégé 3110CT należał do lekkich komputerów biznesowych, gdzie liczyła się mobilność bardziej niż surowa moc. W kolekcji świetnie pokazuje, jak wyglądał przenośny komputer przed erą współczesnych ultrabooków."
   },
   {
     cat:"laptop", name:"IBM ThinkPad R50e", tag:"PC Laptop", year:"2004",
-    cpu:"Pentium M / Celeron M (zależnie od SKU)", gpu:"Intel 855GM", ram:"128–512 MB fabrycznie, max 2 GB", os:"Windows XP / 2000",
+    cpu:"Pentium M", gpu:"Intel 855GM", ram:"512 MB", os:"Windows XP",
     i18n:{bs:{name:"IBM ThinkPad R50e",desc:"ThinkPad R50e je predstavnik klasičnih poslovnih laptopa IBM-a. Platforma Intel 855GM i procesori Pentium M bili su projektovani s naglaskom na razumnu potrošnju energije. Tipična ThinkPad konstrukcija stavlja praktičnost, servisiranje i tastaturu ispred efektnog izgleda.",tag:null},ar:{name:"IBM ThinkPad R50e",desc:"يمثل ThinkPad R50e فئة الحواسيب المحمولة التجارية الكلاسيكية من IBM. صُممت منصة Intel 855GM ومعالجات Pentium M مع التركيز على استهلاك طاقة معقول. يركز تصميم ThinkPad المعتاد على العملية وقابلية الصيانة ولوحة المفاتيح أكثر من المظهر اللافت.",tag:null}},
     desc:"ThinkPad R50e to przedstawiciel klasycznych biznesowych laptopów IBM. Platforma Intel 855GM i procesory z rodziny Pentium M były projektowane z myślą o rozsądnym poborze energii. Typowa dla ThinkPadów konstrukcja stawia na praktyczność, serwisowalność i klawiaturę, a nie efektowny wygląd."
   },
   {
     cat:"main", name:"MacBook Pro M5 — główny laptop", tag:"MAIN GEAR", year:"2025",
-    cpu:"Apple M5", gpu:"Apple GPU", ram:"16 GB", os:"macOS",
+    cpu:"Apple M5", gpu:"Apple M5", ram:"16 GB", os:"macOS 26 Tahoe",
     i18n:{bs:{name:"MacBook Pro M5 — glavni laptop",desc:"Nenametljiv, ali moćan računar za programiranje, igranje i svakodnevnu upotrebu — bilo gdje i u bilo koje vrijeme. Savremeni kontrast kolekciji PowerPC i Intel mašina.",tag:null},ar:{name:"MacBook Pro M5 — الحاسوب المحمول الرئيسي",desc:"جهاز غير لافت في شكله لكنه قوي للبرمجة والألعاب والاستخدام اليومي في أي مكان ووقت. إنه المقابل الحديث لمجموعة أجهزة PowerPC وIntel.",tag:null}},
     desc:"Niepozorna, ale potężna maszyna do programowania, grania oraz codziennego użytku — w każdym miejscu i o każdej porze. To współczesny kontrapunkt dla kolekcji PowerPC i Intel."
   },
