@@ -23,6 +23,23 @@ const machines = [
     },
     desc:"Ikona designu i technologiczne dzieło sztuki. Zaprezentowany w 2002 roku, ten przełomowy komputer na zawsze zmienił postrzeganie wzornictwa przemysłowego w branży IT. Dzięki unikalnej, regulowanej konstrukcji inspirowanej lampką biurkową oraz procesorowi PowerPC G4, iMac G4 stał się jednym z najbardziej pożądanych i rozpoznawalnych urządzeń w historii Apple. To idealne połączenie nostalgii, innowacji i klasycznego systemu Mac OS, które do dziś zachwyca kolekcjonerów i pasjonatów designu na całym świecie."
   },
+  {
+    cat:"apple", name:"Macintosh Classic", tag:"Macintosh", year:"1990",
+    cpu:"Motorola 68000 8 MHz", gpu:"Monochrome integrated display", ram:"4 MB", os:"System 6.0.3 / Mac OS 7.5.5",
+    i18n:{
+        bs:{
+            name:"Macintosh Classic",
+            desc:"Macintosh Classic je trenutno najstariji računar u mojoj kolekciji. Ima dosta problema zbog svoje starosti, uključujući stare elektrolitske kondenzatore i druge komponente koje zahtijevaju pažnju. Trenutno radim na njegovom vraćanju u potpuno ispravno stanje.",
+            tag:null
+        },
+        ar:{
+            name:"Macintosh Classic",
+            desc:"يُعد Macintosh Classic حاليًا أقدم حاسوب في مجموعتي. يواجه عددًا من المشاكل بسبب عمره، بما في ذلك المكثفات الإلكتروليتية القديمة ومكونات أخرى تحتاج إلى اهتمام. أعمل حاليًا على إعادته إلى حالة تشغيل كاملة.",
+            tag:null
+        }
+    },
+    desc:"Macintosh Classic jest aktualnie najstarszym komputerem w mojej kolekcji. Jest z nim sporo problemów z powodu jego wieku, między innymi starych kondensatorów elektrolitycznych i innych podzespołów wymagających uwagi. Aktualnie pracuję nad przywróceniem go do pełnej sprawności."
+  },
  
   {
     cat:"apple", name:"PowerMac G4 Sawtooth — Graphite", tag:"PowerMac G4", year:"1999",
