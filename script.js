@@ -25,7 +25,7 @@ const machines = [
   },
   {
     cat:"apple", name:"Macintosh Classic", tag:"Macintosh", year:"1990",
-    cpu:"Motorola 68000 8 MHz", gpu:"Monochrome integrated display", ram:"4 MB", os:"System 6.0.3 / Mac OS 7.5.5",
+    cpu:"Motorola 68000 8 MHz", gpu:"-", ram:"4 MB", os:"System 7.0.1",
     i18n:{
         bs:{
             name:"Macintosh Classic",
