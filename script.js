@@ -109,7 +109,7 @@ const machines = [
   },
   {
     cat:"main", name:"MacBook Pro M5 — główny laptop", tag:"MAIN GEAR", year:"2025",
-    cpu:"Apple M5", gpu:"Apple M5", ram:"16 GB", os:"macOS 26 Tahoe",
+    cpu:"Apple M5", gpu:"Apple M5", ram:"16 GB", os:"macOS 27 Golden Gate",
     i18n:{bs:{name:"MacBook Pro M5 — glavni laptop",desc:"Nenametljiv, ali moćan računar za programiranje, igranje i svakodnevnu upotrebu — bilo gdje i u bilo koje vrijeme. Savremeni kontrast kolekciji PowerPC i Intel mašina.",tag:null},ar:{name:"MacBook Pro M5 — الحاسوب المحمول الرئيسي",desc:"جهاز غير لافت في شكله لكنه قوي للبرمجة والألعاب والاستخدام اليومي في أي مكان ووقت. إنه المقابل الحديث لمجموعة أجهزة PowerPC وIntel.",tag:null}},
     desc:"Niepozorna, ale potężna maszyna do programowania, grania oraz codziennego użytku — w każdym miejscu i o każdej porze. To współczesny kontrapunkt dla kolekcji PowerPC i Intel."
   },
