@@ -18,7 +18,7 @@
   <a href="about.html" data-i18n="nav_about">O MNIE</a>
   <a href="tech.html" data-i18n="nav_skills">TECH</a>
   <a href="collection.html" data-i18n="nav_collection">KOLEKCJA</a>
-  <a href="phones.html" data-i18n="nav_phones">TELEFONY</a>
+  <a href="phones.html" aria-current="page" data-i18n="nav_phones">TELEFONY</a>
   <a href="gallery.html" data-i18n="nav_gallery">GALERIA</a>
 
 </nav>
@@ -28,14 +28,14 @@
 <section class="phone-header panel">
   <div class="phone-header-image">
     <img src="assets/phones-header.jpg"
-         alt="Kolekcja telefonów: Nokia 6610 oraz iPhone'y kilku generacji"
-         style="display:block; width:auto; max-width:720px; max-height:260px; height:auto; margin:0 auto;"
+         data-i18n-alt="photo_phones" alt="Kolekcja telefonów: Nokia 6610 oraz iPhone'y kilku generacji"
+         style="display:block; width:auto; max-width:min(720px, 100%); max-height:260px; height:auto; margin:0 auto;"
          loading="eager">
   </div>
   <div class="phone-header-caption">
     <span class="eyebrow">PHOTO // PHONE COLLECTION</span>
-    <strong>TELEFONY // KOLEKCJA</strong>
-    <span>Mały przekrój historii telefonów, które trafiały w moje ręce.</span>
+    <strong data-i18n="phones_title">TELEFONY // KOLEKCJA</strong>
+    <span data-i18n="phones_intro">Mały przekrój historii telefonów, które trafiały w moje ręce.</span>
   </div>
 </section>
 
@@ -65,6 +65,7 @@
 </footer>
 <div class="lang-switcher" aria-label="Language selector">
   <button data-lang="pl" class="lang active">PL</button>
+  <button data-lang="en" class="lang" lang="en" aria-label="English">EN</button>
   <button data-lang="bs" class="lang">BS</button>
   <button data-lang="ar" class="lang">AR</button>
 </div>
