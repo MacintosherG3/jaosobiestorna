@@ -16,7 +16,7 @@
 <nav class="nav" aria-label="Główna nawigacja">
   <a href="index.html" data-i18n="nav_home">START</a>
   <a href="about.html" data-i18n="nav_about">O MNIE</a>
-  <a href="tech.html" data-i18n="nav_skills">TECH</a>
+  <a href="tech.html" aria-current="page" data-i18n="nav_skills">TECH</a>
   <a href="collection.html" data-i18n="nav_collection">KOLEKCJA</a>
   <a href="phones.html" data-i18n="nav_phones">TELEFONY</a>
   <a href="gallery.html" data-i18n="nav_gallery">GALERIA</a>
@@ -32,8 +32,8 @@
 </section>
 <section class="panel" style="padding:16px; text-align:center;">
   <img src="assets/skills-code.jpg"
-       alt="Kod w Xcode — projektowanie aplikacji Apple"
-       style="display:block; width:auto; max-width:720px; max-height:360px; height:auto; margin:0 auto; object-fit:contain;">
+       data-i18n-alt="photo_code" alt="Kod w Xcode — projektowanie aplikacji Apple"
+       style="display:block; width:auto; max-width:min(720px, 100%); max-height:360px; height:auto; margin:0 auto; object-fit:contain;">
 </section>
 <section class="panel">
   <div class="skill-grid">
@@ -64,6 +64,7 @@
 </footer>
 <div class="lang-switcher" aria-label="Language selector">
   <button data-lang="pl" class="lang active">PL</button>
+  <button data-lang="en" class="lang" lang="en" aria-label="English">EN</button>
   <button data-lang="bs" class="lang">BS</button>
   <button data-lang="ar" class="lang">AR</button>
 </div>
