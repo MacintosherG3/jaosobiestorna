@@ -149,7 +149,42 @@ const dict = {
   }
 };
 
-let lang = localStorage.getItem("retroLang") || "pl";
+dict.en = {
+online:'ONLINE',nav_home:'HOME',nav_about:'ABOUT ME',nav_skills:'TECH',nav_collection:'COLLECTION',nav_phones:'PHONES',nav_gallery:'GALLERY',nav_sources:'SOURCES',
+hero_title_1:'PROGRAMMING.',hero_title_2:'RETRO COMPUTERS.',hero_title_3:'LINUX.',hero_text:'My little corner of the internet, dedicated to building software, hardware with character, and experimenting with technology — from classic Mac OS to Arch Linux.',see_collection:'Explore the collection',see_stack:'My tech stack',home_intro_title:'BUREK / BUREKTECH',home_intro_lead:'Code, old computers, and curiosity about how everything works.',home_intro:'This website is my digital archive: I share the projects and technologies I work with, and my collection of machines from different eras of computing.',quick_about:'About me',quick_about_desc:'who I am and what I do',quick_tech:'Technologies',quick_tech_desc:'C++, Swift, MySQL, Linux, Metal, SwiftUI',quick_collection:'Collection',quick_collection_desc:'Apple, PCs, laptops, and my main gear',
+about_title:'ABOUT ME',about_lead:'I like knowing what happens under the hood.',about_text:'For me, programming combines hands-on practice, curiosity, and constant tinkering with systems. I write C++ and Swift, work with MySQL, and know Linux through everyday use, configuration, administration, and terminal work.',about_text2:'I also collect computers that show how approaches to hardware and software have changed. Every machine has its own era, character, and story.',about_text3:'Retro hardware is more than decoration to me. I enjoy running old operating systems, exploring the limits of older components, installing software, and comparing past solutions with what we use today.',about_text4:'I am also interested in modern hardware: Apple Silicon, GPU graphics, Linux, app development, and anything that lets me build my own tools instead of just using ready-made ones.',quote:'Modern hardware may be fast and good-looking, but old hardware will always be more interesting and fun.',about_focus_title:'WHAT I ENJOY',focus1_title:'Systems',focus1:'Understanding systems, from terminals and processes to services, files, networking, and configuration.',focus2_title:'Programming',focus2:'C++ for performance and fundamentals, and Swift for the Apple ecosystem.',focus3_title:'Retro computing',focus3:'Mac OS 9, PowerPC, old PCs, and bringing hardware back to life.',focus4_title:'Experiments',focus4:'Combining old and new hardware and finding out where its limits lie.',
+skills_title:'TECH / SKILLS',tech_intro:'My toolkit — from low-level code to applications and system administration.',cpp:'high-performance programming, systems, and low-level experiments',swift:'Apple apps, modern code, and the macOS/iOS ecosystem',mysql:'data modelling, queries, relationships, and everyday database work',linux:'terminal, administration, networking, services, automation, and Arch Linux',metal:'GPU graphics and computing in the Apple ecosystem',swiftui:'declarative interfaces for Apple platforms',tech_detail_title:'HOW I USE THEM',tech_cpp_detail:'I use C++ where control, performance, and understanding what happens close to the hardware matter. It is also my language for experiments and learning how systems work.',tech_swift_detail:'Swift is my way into the modern Apple world. SwiftUI lets me build interfaces declaratively, and the ecosystem fits naturally with macOS and iOS.',tech_mysql_detail:'I work with relational databases: designing tables, relationships, queries, indexes, and organising data.',tech_linux_detail:'Arch Linux is my main PC environment. I am interested in the full stack: shells, processes, packages, services, networking, logs, automation, and system configuration.',tech_metal_detail:'Metal lets me explore Apple GPUs and approach graphics and computing more directly than through high-level APIs.',
+collection_title:'COLLECTION // COMPUTERS',collection_intro:'Machines from different eras — each with its own configuration, history, and reason for staying in my collection.',all:'ALL',main_gear:'MAIN GEAR',phones_title:'COLLECTION // PHONES',phones_intro:'A small cross-section of the history of phones that have found their way into my collection.',main_phone:'(MAIN)',phones_story_title:'WHY PHONES?',phones_story:'Phones complement a computer collection because they tell the same story of technological progress in a small package: more powerful chips, better screens, cameras and memory, and increasingly capable operating systems.',gallery_title:'GALLERY // MY MACHINES',gallery_intro:'Photos are displayed without cropping. Click any photo to view it at full size.',full_size:'FULL SIZE',sources_title:'NOTES / SOURCES',sources_intro:'Collection details come from the owner’s descriptions. Reference information has been added for the Toshiba Portégé 3110CT and ThinkPad R50e.',sources_note:'Individual configurations may differ from catalogue specifications, so the collection prioritises the details provided for my own machines.',footer:'built with HTML + CSS + JS',
+era:'Era / year',category:'Category',close:'Close',navigation:'Main navigation',language:'Select language',gallery_work:'MacBook Pro // main workstation',gallery_apple:'Collection // generations of Apple',photo_phones:'Phone collection: Nokia 6610 and several generations of iPhone',photo_code:'Code in Xcode — developing Apple applications',photo_0:'Two white MacBooks on a desk',photo_1:'Silver MacBook Pro',photo_2:'Colourful iMac G3 from the front',photo_3:'Colourful iMac G3 from the side',photo_4:'White MacBook running Mac OS X',photo_5:'MacBook Pro with a large external display and a waterfall wallpaper',photo_6:'Apple computer collection — MacBooks, an iMac, and a MacBook Pro'
+};
+const englishDescriptions = [
+'One of the most recognisable computers of the late 1990s and early 2000s. Its translucent case and Bondi Blue colour symbolise an era when Apple put design centre stage. This machine combines the simplicity of PowerPC with classic Mac OS.',
+'A design icon and a technological work of art. Introduced in 2002, this groundbreaking computer reshaped industrial design in IT. Its distinctive adjustable desk-lamp-inspired construction and PowerPC G4 processor made it one of Apple’s most desirable and recognisable machines. It combines nostalgia, innovation, and classic Mac OS, and still delights collectors and design enthusiasts around the world.',
+'The Macintosh Classic is currently the oldest computer in my collection. Its age brings several problems, including ageing electrolytic capacitors and other components that need attention. I am currently working to restore it to full working order.',
+'Sawtooth represents the professional side of the PowerPC G4 era. Its G4 processor and ATI Rage 128 are a typical turn-of-the-millennium combination, while the graphite case sets it apart from the consumer-focused iMac.',
+'Quicksilver is one of the collection’s most powerful machines from the classic Mac OS era. Dual G4 processors, 1 GB of RAM, and support for both Mac OS 9.2.2 and Mac OS X 10.4.11 make it ideal for comparing two generations of Apple software.',
+'One of the first Intel-powered MacBooks. It marks an important stage in Apple’s history: the move from PowerPC to x86 paved the way for subsequent generations of Intel Macs.',
+'A white MacBook from the era when Apple was still developing its distinctive polycarbonate notebooks. The GMA X3100 was no performance powerhouse, but it suited the lightweight operating system and everyday tasks of the time.',
+'A larger, more professional notebook from the aluminium MacBook Pro generation. Its T9300 and GeForce 8600M GT make it considerably more powerful than standard MacBooks, while 6 GB of RAM helped extend its useful life.',
+'A later-generation white MacBook. Its integrated GeForce 9400M offered substantially more capability than earlier GMA graphics. Support for both older systems and later macOS releases gives it a second life as a retro machine.',
+'A compact Intel-era MacBook Pro. Sandy Bridge and 8 GB of RAM make it an interesting machine for older software, compatibility work, and experiments with earlier macOS releases, despite its age.',
+'A classic PC from the first half of the 1990s. A 75 MHz Pentium and 32 MB of RAM fit the world of DOS, Windows 95, and early Windows 98 perfectly. Configurations like this show just how enormous later performance gains were.',
+'A machine from the days of high-clocked Pentium 4 processors, when Hyper-Threading gave the operating system two logical threads. The GeForce 6600 GT suits Windows XP-era games and provides an interesting contrast to the much older Pentium 75.',
+'A tiny notebook from the turn of the millennium. The Portégé 3110CT belonged to a class of lightweight business computers where mobility mattered more than raw power. It shows what portable computing looked like before modern ultrabooks.',
+'A classic IBM business laptop. The Intel 855GM platform and Pentium M processors were designed with sensible power consumption in mind. Its ThinkPad construction prioritises practicality, serviceability, and the keyboard over flashy looks.',
+'An understated but powerful machine for programming, gaming, and everyday use — anywhere, anytime. It is a modern counterpoint to the PowerPC and Intel collection.',
+'My gaming machine and all-purpose Linux workhorse for everything I cannot do on a Mac. Two 1 TB Samsung 990 drives provide a fast environment for projects, games, virtual machines, and Linux experiments.'
+];
+machines.forEach((m,i)=>{m.i18n.en={name:({1:'iMac G4 — Desk Lamp',14:'MacBook Pro M5 — main laptop',15:'Main PC — Linux Gaming Rig'})[i] || m.name,desc:englishDescriptions[i]};});
+Object.assign(dict.pl,{era:'Era / rok',category:'Kategoria',close:'Zamknij',navigation:'Główna nawigacja',language:'Wybierz język',gallery_work:'MacBook Pro // główne stanowisko pracy',gallery_apple:'Kolekcja // Apple w kilku generacjach'});
+Object.assign(dict.bs,{era:'Era / godina',category:'Kategorija',close:'Zatvori',navigation:'Glavna navigacija',language:'Odaberi jezik'});
+Object.assign(dict.ar,{era:'العصر / السنة',category:'الفئة',close:'إغلاق',navigation:'التنقل الرئيسي',language:'اختر اللغة'});
+const preferences = {
+ get(key){try{return localStorage.getItem(key)}catch{return null}},
+ set(key,value){try{localStorage.setItem(key,value)}catch{}}
+};
+
+let lang = preferences.get("retroLang") || "pl";
 if(!dict[lang]) lang="pl";
 
 function applyLang(){
@@ -160,8 +195,28 @@ function applyLang(){
     const key=el.dataset.i18n;
     if(d[key] !== undefined) el.textContent=d[key];
   });
-  document.querySelectorAll(".lang").forEach(b=>b.classList.toggle("active",b.dataset.lang===lang));
-  localStorage.setItem("retroLang",lang);
+  document.querySelectorAll(".lang").forEach(b=>{
+    b.classList.toggle("active",b.dataset.lang===lang);
+    b.setAttribute("aria-pressed",String(b.dataset.lang===lang));
+  });
+  document.querySelectorAll("[data-i18n-alt]").forEach(el=>{
+    if(!el.dataset.originalAlt) el.dataset.originalAlt=el.alt;
+    el.alt=d[el.dataset.i18nAlt] || el.dataset.originalAlt;
+  });
+  document.querySelectorAll("[data-i18n-extra]").forEach(el=>{
+    if(!el.dataset.originalText) el.dataset.originalText=el.textContent;
+    el.textContent=d[el.dataset.i18nExtra] || el.dataset.originalText;
+  });
+  document.querySelector(".nav")?.setAttribute("aria-label",d.navigation);
+  document.querySelector(".lang-switcher")?.setAttribute("aria-label",d.language);
+  document.querySelectorAll(".modal-close,.lightbox-close").forEach(el=>el.setAttribute("aria-label",d.close));
+  const activeLink=document.querySelector('.nav [aria-current="page"]');
+  if(activeLink) document.title="Burek / Burektech — "+activeLink.textContent;
+  const description=document.querySelector('meta[name="description"]');
+  if(description) description.content=d.hero_text;
+  const openModal=document.getElementById("modal");
+  if(openModal) openMachine(Number(openModal.dataset.index));
+  preferences.set("retroLang",lang);
   if(document.getElementById("collectionGrid")) renderMachines(document.querySelector(".filter.active")?.dataset.filter || "all");
 }
 
@@ -193,17 +248,18 @@ function openMachine(i){
     const box=document.createElement("div");
     box.className="modal open";
     box.id="modal";
-    box.innerHTML=`<div class="modal-box"><button class="modal-close" aria-label="Close">X</button><div id="modalContent"></div></div>`;
+    box.innerHTML=`<div class="modal-box"><button class="modal-close" aria-label="${dict[lang].close}">X</button><div id="modalContent"></div></div>`;
     document.body.appendChild(box);
     box.addEventListener("click",e=>{if(e.target===box) box.remove()});
     box.querySelector(".modal-close").addEventListener("click",()=>box.remove());
   }
   const current=document.getElementById("modal");
+  current.dataset.index=String(i);
   const content=current.querySelector("#modalContent");
   content.innerHTML=`<h3>${t.name}</h3><p>${t.desc}</p><div class="big-specs">
     <div><b>CPU</b><br>${m.cpu}</div><div><b>GPU</b><br>${m.gpu}</div>
     <div><b>RAM</b><br>${m.ram}</div><div><b>OS</b><br>${m.os}</div>
-    <div><b>Era / rok</b><br>${m.year}</div><div><b>Kategoria</b><br>${m.tag}</div>
+    <div><b>${dict[lang].era}</b><br>${m.year}</div><div><b>${dict[lang].category}</b><br>${t.tag}</div>
   </div>`;
 }
 
@@ -240,8 +296,9 @@ if(lightbox){
   document.addEventListener("keydown",e=>{if(e.key==="Escape")close()});
 }
 
+document.addEventListener("keydown",e=>{if(e.key==="Escape")document.getElementById("modal")?.remove()});
 document.getElementById("year").textContent=new Date().getFullYear();
-let vc=Number(localStorage.getItem("retroVisits")||42)+1;
-localStorage.setItem("retroVisits",vc);
+let vc=Number(preferences.get("retroVisits")||42)+1;
+preferences.set("retroVisits",vc);
 document.getElementById("visitorCount").textContent=String(vc).padStart(6,"0");
 applyLang();
